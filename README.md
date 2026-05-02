@@ -2,17 +2,17 @@
 
 Simple ETL pipeline that extracts data from a CSV file into a SQL Server.
 
-##Pipeline Steps
+## Pipeline Steps
 
-###Extract
+### Extract
 - Reads data from a CSV file using pandas
 
-###Transform
+### Transform
 - Removes unnecessary columns
 - Cleans text fields
 - Prepares data for database insertion
 
-##Loads
+## Loads
 - Inserts data into SQL Server using SQLAlchemy
 
   ## Tech Stack
